@@ -13,7 +13,7 @@ void EnterFileNumber(int fileNumber);
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int count = 2100;
+	int count = 2174;
 
 	while(true){
 		if (GetAsyncKeyState(VK_F2)){
