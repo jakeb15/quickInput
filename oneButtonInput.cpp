@@ -13,14 +13,16 @@ void EnterFileNumber(int fileNumber);
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	int count = 2174;
+	int count =1;
 
 	while(true){
 		if (GetAsyncKeyState(VK_F2)){
 			EnterFileNumber(count);
-			Sleep(100);
+			Sleep(400);
 			pressKey_static(0x0D);
 			count++;
+			Sleep(500);
+			pressKey_static(VK_DOWN);
 		}
 	
 	}
